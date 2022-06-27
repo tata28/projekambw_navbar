@@ -158,6 +158,7 @@ class _TaskDetailsState extends State<TaskDetails> {
                                     color: Color.fromARGB(255, 160, 158, 158)),
                                 textCapitalization: TextCapitalization.words,
                                 textDirection: TextDirection.ltr,
+                                textAlignVertical: TextAlignVertical.top,
                                 decoration: InputDecoration(
                                     fillColor: Colors.white,
                                     enabledBorder: OutlineInputBorder(
