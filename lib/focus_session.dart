@@ -3,7 +3,7 @@ import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
 class FocusSession extends StatefulWidget {
-  const FocusSession({super.key});
+  const FocusSession({Key? key}) : super(key: key);
 
   @override
   State<FocusSession> createState() => _FocusSessionState();

@@ -3,7 +3,7 @@ import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
 class Completed extends StatefulWidget {
-  const Completed({super.key});
+  const Completed({Key? key}) : super(key: key);
 
   @override
   State<Completed> createState() => _CompletedState();

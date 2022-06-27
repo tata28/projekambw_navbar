@@ -23,7 +23,7 @@ class _MyAppState extends State<MyApp> {
     HomePage(),
     FocusSession(),
     TaskDetails(),
-    ToDo(),
+    Completed(),
     Settings()
   ];
 
@@ -56,7 +56,7 @@ class _MyAppState extends State<MyApp> {
               ),
               BottomNavigationBarItem(
                 icon: ImageIcon(AssetImage("assets/img/to_do_list.png")),
-                label: 'Task Details',
+                label: 'To Do List',
                 backgroundColor: Colors.transparent,
               ),
               BottomNavigationBarItem(
